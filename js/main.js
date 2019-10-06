@@ -32,8 +32,8 @@ var app = new Vue({
             this.popover = 'none'
         },
         logout: function() {
-            this.currentPage = 'dashboard';
             this.username = null;
+            this.goToDashboard();
         },
         goToDashboard: function() {
             if(this.currentPage != 'dashboard') {
