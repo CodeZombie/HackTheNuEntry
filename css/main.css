@@ -1,0 +1,26 @@
+nav {
+    z-index:999;
+    margin-bottom: 2rem;
+}
+
+
+.eventHeaderBar {
+    width:100%;
+
+}
+.eventBox {
+    width:100%;
+    margin-bottom:1rem;
+}
+
+#appBody {
+    max-width:1024px;
+    padding-right:1rem;
+    padding-left:1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.modal {
+    z-index: 99999;
+}
